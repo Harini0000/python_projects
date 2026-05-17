@@ -63,10 +63,12 @@ A two-player Pong clone inspired by the retro arcade game.
 
 ## 3. Language Flashcards
 
-A flashcard app for learning languages like French and Dutch.
+A flashcard app for learning multiple languages with built-in pronunciation support.
 
 ### Features
+- Supports French, Dutch, and Swedish
 - Language selection using radio buttons
+- Automatic text-to-speech pronunciation
 - Flashcard flipping animation
 - Tracks learned words
 - Saves progress automatically using CSV files
@@ -76,9 +78,15 @@ A flashcard app for learning languages like French and Dutch.
 - Python
 - Tkinter
 - Pandas
+- gTTS
+- Pygame
+
+### Dependencies
+-pygame
+-gtts
 
 ### Preview
-![Snake Game](assets/language_flashcard.png)
+![Language_cards](assets/language_flashcard.png)
 
 ---
 
